@@ -1,0 +1,1 @@
+import{j as s,i as e}from"./index.b138ffef.js";const o="/edgeone/tools/assets/welcome01.49086098.png",l="_home_7p0q4_1",a={home:l},m=()=>s("div",{className:e(a.home,"a123",{bclass:!0,cClass:!1},["dclass",{eclass:null,fclass:1}]),children:s("img",{src:o,alt:"welcome"})});export{m as default};
