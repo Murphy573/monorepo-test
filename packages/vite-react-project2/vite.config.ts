@@ -1,4 +1,4 @@
-import { ConfigEnv, defineConfig, loadEnv } from 'vite'
+import { ConfigEnv, defineConfig, loadEnv, PluginOption } from 'vite'
 import react from '@vitejs/plugin-react'
 import ViteEslint from 'vite-plugin-eslint'
 import path from 'node:path'

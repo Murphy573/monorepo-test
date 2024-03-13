@@ -4,6 +4,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "cra": "npx lerna exec --scope cra-react-project -- yarn start",
+    "vite1": "npx lerna exec --scope vite-react-project1 -- npm run dev",
+    "vite2": "npx lerna exec --scope vite-react-project2 -- npm run dev"
+  },
   "dependencies": {},
   "devDependencies": {
     "lerna": "^8.1.2"
